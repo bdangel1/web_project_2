@@ -1,4 +1,4 @@
-<!DOCTYPE >
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,7 @@
     <meta name="discription" content="the library online coffe shop" />
     <meta name="Author" content="Malahk Christmas" />
     <meta name="keywords" content="read, coffee, library" />
+    <title>Practicum coffee shope</title>
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +35,7 @@
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent" id="header accent">
+          <span class="header__span-accent" id="header-accent">
             Specialty coffee</span
           >
           <br />
@@ -173,7 +174,6 @@
               <iframe
                 src="https://www.youtube.com/embed/j6VlT_jUVPc"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
                 class="recipes__iframe"
@@ -187,7 +187,6 @@
               <iframe
                 src="https://www.youtube.com/embed/st571DYYTR8"
                 title="YouTube video player"
-                frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
                 class="recipes__iframe"
@@ -201,11 +200,11 @@
         </section>
         <section class="reservation">
           <div class="form__container">
-            <h7 class="reservation__title">Book a table</h7>
+            <h4 class="reservation__title">Book a table</h4>
             <form class="form">
               <div class="reservation__form">
                 <fieldset class="form__fieldset">
-                  <label for="Name Surname" class="form__lable">Name *</label>
+                  <label for="Name" class="form__lable">Name *</label>
                   <input
                     type="text"
                     class="form__input"
@@ -215,7 +214,7 @@
                 </fieldset>
 
                 <fieldset class="form__fieldset">
-                  <label for="number of guest" class="form__label"
+                  <label for="number-of-guest" class="form__label"
                     >Number of guests *</label
                   ><input
                     type="text"
@@ -225,12 +224,13 @@
                   />
                 </fieldset>
                 <fieldset class="form__fieldset">
-                  <label for="date" class="form__label">Date & time *</label>
+                  <label for="date-&-time" class="form__label"
+                    >Date & time *</label
+                  >
                   <input type="date" class="form__input" id="date-and-time" />
                 </fieldset>
                 <fieldset class="form__fieldset">
-                  <label for="your email" class="form__label"
-                    >Your email *</label
+                  <label for="your-email" class="form__label">Your email </label
                   ><input
                     type="email"
                     class="form__input"
@@ -252,10 +252,12 @@
                     <input
                       type="checkbox"
                       name="agreement"
-                      id="I agree with the terms of use"
+                      id="I-agree-with-the-terms-of-use"
                       class="form__input form__input-checkbox"
                     />
-                    <label for="agreement" class="form__label"
+                    <label
+                      for="I-agree-with-the-terms-of-use["
+                      class="form__label"
                       >I agree with the terms of use
                     </label>
                   </div>
