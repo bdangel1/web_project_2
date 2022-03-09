@@ -49,6 +49,7 @@
 .card__list-item {
   list-style-type: none;
   display: flex;
+  gap: 16px;
 }
 .card__list-divider {
   flex-grow: 2;
