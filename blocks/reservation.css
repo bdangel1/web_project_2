@@ -5,7 +5,7 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  margin: auto;
+  margin: 0;
   height: 100vh;
 }
 
@@ -16,14 +16,10 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: auto;
+  margin: 100px auto;
   padding-top: 100px;
 }
 .reservation__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 32px;
+  margin: auto;
   max-width: 385px;
-  margin: 80px auto;
 }

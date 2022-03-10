@@ -1,17 +1,13 @@
-.form__container {
-  height: 100%;
-  margin: 0 auto;
+.form {
   display: flex;
   flex-direction: column;
-}
-.form {
-  margin: auto;
-  max-width: 385px;
+  justify-content: center;
 }
 .form__fieldset {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  max-width: 385px;
 }
 .form__label {
   font-family: Inter;
@@ -23,7 +19,6 @@
 }
 .form__input {
   border-radius: 4px;
-  max-width: 385px;
 }
 .form__footer {
   display: flex;
