@@ -9,6 +9,7 @@
   font-size: 20px;
   line-height: 30px;
   padding-left: 7%;
+  font-family: Inter, Arial, sans-serif;
 }
 
 .card__list {
@@ -19,6 +20,7 @@
   list-style-type: none;
   display: flex;
   gap: 16px;
+  font-family: Noto serif, "Times New Roman", Times, serif;
 }
 .card__list-divider {
   flex-grow: 2;

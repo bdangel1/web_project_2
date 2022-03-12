@@ -8,6 +8,7 @@
   margin: 0;
 }
 .menu__title {
+  font-family: Inter Arial, sans-serif;
   font-size: 44px;
   line-height: 52px;
   max-width: 780px;
@@ -20,6 +21,11 @@
   text-align: center;
   max-width: 780px;
   margin: 25px auto 100px;
+  font-family: Noto Serif, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 .menu__cards {
   color: aliceblue;
