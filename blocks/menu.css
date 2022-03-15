@@ -8,7 +8,7 @@
   margin: 0;
 }
 .menu__title {
-  font-family: Inter Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 44px;
   line-height: 52px;
   font-weight: 500;
@@ -36,4 +36,5 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: 100px;
+  padding-bottom: 100px;
 }
